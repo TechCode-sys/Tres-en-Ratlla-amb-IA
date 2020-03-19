@@ -67,7 +67,7 @@ def compMove():
     
     edgesOpen = []
     for i in possibleMoves:
-        if i in [2,4,6,7]:
+        if i in [2,4,6,8]:
             edgesOpen.append(i)
 
     if len(edgesOpen) > 0:
